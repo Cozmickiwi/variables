@@ -35,7 +35,14 @@ fn main() {
     println!("Remainder: {remainder}");
     */
 
+    /* Boolian 
     let t = true;
     let f: bool = false;
     println!("This statement is both {t} and {f}!");
+    */
+
+    let h = 'H';
+    let e: char = 'i';
+    let happi_cat = '😸';
+    println!("{h}{e}{happi_cat}");
 }
