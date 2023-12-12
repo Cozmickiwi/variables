@@ -14,6 +14,8 @@ fn main() {
     }
     println!("The value of x is: {x}");
     */
+
+    /* Numeric operations
     // addition
     let sum: i8 = 5+10;
     // subtraction
@@ -31,4 +33,9 @@ fn main() {
     println!("Quotient: {quotient}");
     println!("Truncated: {truncated}");
     println!("Remainder: {remainder}");
+    */
+
+    let t = true;
+    let f: bool = false;
+    println!("This statement is both {t} and {f}!");
 }
