@@ -48,6 +48,7 @@ fn main() {
     println!("{h}{e}{happi_cat}");
     */
 
+    /* Tuple 
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     let (x, y, z) = tup;
     println!("The value of y is: {y}");
@@ -55,4 +56,11 @@ fn main() {
     let six_point_four = tup.1;
     let one = tup.2;
     println!("{five_hundred}|{six_point_four}|{one}");
+    */
+
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    let arr2 = ["Monday", "Tuesday", "Wednesday"];
+    let num = arr[1];
+    let day = arr2[1];
+    println!("{day} is the {num}nd day of the week")
 }
